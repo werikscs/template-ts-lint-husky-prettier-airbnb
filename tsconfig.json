@@ -1,6 +1,6 @@
 {
   "compilerOptions": {
-    "target": "es5",
+    "target": "es6",
     "lib": [
       "dom",
       "dom.iterable",
@@ -10,8 +10,8 @@
     "module": "esnext",
     "moduleResolution": "node",
     "jsx": "react",
-    "rootDir": ".",
-    "baseUrl": ".",
+    "rootDirs": ["src"],
+    "baseUrl": ".src",
     "allowJs": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,

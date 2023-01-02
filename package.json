@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "eslint src/**/*.{ts,tsx} --fix --max-warnings=0 --no-error-on-unmatched-pattern"
+    "lint": "eslint src/**/*.{ts,tsx} --fix --max-warnings=0 --no-error-on-unmatched-pattern",
+    "prepare": "husky install"
   },
   "keywords": [],
   "author": "",
@@ -24,8 +25,8 @@
     "eslint-plugin-react": "^7.31.11",
     "eslint-plugin-react-hooks": "^4.6.0",
     "git-commit-msg-linter": "^4.5.0",
+    "husky": "^8.0.0",
     "prettier": "^2.8.1",
-    "typescript": "^4.9.4",
-    "husky": "^8.0.0"
+    "typescript": "^4.9.4"
   }
 }
