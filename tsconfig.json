@@ -22,8 +22,6 @@
     "noEmit": true
   },
   "include": [
-    "src",
-    ".eslintrc.json",
-    "jest.config.js",
+    "src"
   ]
 }
