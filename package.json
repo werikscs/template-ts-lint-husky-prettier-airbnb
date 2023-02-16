@@ -8,8 +8,7 @@
     "lint": "eslint .",
     "lint:fix": "npm run lint -- --fix",
     "test": "vitest --run",
-    "test:staged": "vitest related --run",
-    "test:ci": "vitest related --run --coverage"
+    "test:staged": "vitest related --run --coverage"
   },
   "keywords": [],
   "author": "",
