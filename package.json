@@ -10,7 +10,9 @@
     "test": "jest --passWithNoTests",
     "test:watch": "npm test -- --watch",
     "test:staged": "npm test -- --findRelatedTests",
-    "test:ci": "npm test -- --coverage"
+    "test:ci": "npm test -- --coverage",
+    "vtest": "vitest --run",
+    "vtest:staged": "npm vtest -- related"
   },
   "keywords": [],
   "author": "",
@@ -35,6 +37,7 @@
     "lint-staged": "^13.1.0",
     "prettier": "^2.8.1",
     "ts-jest": "^29.0.3",
-    "typescript": "^4.9.4"
+    "typescript": "^4.9.4",
+    "vitest": "^0.28.5"
   }
 }
