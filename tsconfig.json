@@ -1,18 +1,12 @@
 {
   "compilerOptions": {
     "target": "es6",
-    "lib": [
-      "dom",
-      "dom.iterable",
-      "esnext"
-    ],
     "types": ["vitest/globals"],
     "esModuleInterop": true,
-    "module": "esnext",
-    "moduleResolution": "node",
-    "jsx": "react",
-    "rootDirs": ["src"],
-    "baseUrl": ".src",
+    "module": "CommonJS",
+    "rootDirs": ["./src"],
+    "baseUrl": "/.src",
+    "outDir": "./dist",
     "allowJs": true,
     "skipLibCheck": true,
     "allowSyntheticDefaultImports": true,
@@ -20,7 +14,10 @@
     "forceConsistentCasingInFileNames": true,
     "resolveJsonModule": true,
     "isolatedModules": false,
-    "noEmit": true
+    "noEmit": true,
+    "paths": {
+      "@/*": ["*"]
+    },
   },
   "include": [
     "src",
